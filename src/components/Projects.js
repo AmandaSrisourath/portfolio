@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-function Experience() {
+function Projects() {
     return (
         <div>
             <h2>
-                Experience
+                Projects
             </h2>
 
-            <ExperienceContainer>
-                <ExperienceBox>
+            <ProjectsContainer>
+                <ProjectsBox>
                     <h3>
                         Convert a jQuery library to React
                     </h3>
@@ -21,9 +21,9 @@ function Experience() {
                         <li>Unit testing</li>
                         <li>Technologies used : React, React Router, Redux / Toolkit, Emotion, Jest, Testing-Library</li>
                     </ul>
-                </ExperienceBox>
+                </ProjectsBox>
 
-                <ExperienceBox>
+                <ProjectsBox>
                     <h3>
                         Use an API for a bank user account with React
                     </h3>
@@ -34,9 +34,9 @@ function Experience() {
                         <li>Authentication with an API</li>
                         <li>Technologies used : React, React Router, Redux / Toolkit, Axios</li>
                     </ul>
-                </ExperienceBox>
+                </ProjectsBox>
 
-                <ExperienceBox>
+                <ProjectsBox>
                     <h3>
                         Build an analytics dashboard with React
                     </h3>
@@ -47,9 +47,9 @@ function Experience() {
                         <li>Produce technical documentation for an application</li>
                         <li>Technologies used : React, React Router, Axios, Recharts</li>
                     </ul>
-                </ExperienceBox>
+                </ProjectsBox>
 
-                <ExperienceBox>
+                <ProjectsBox>
                     <h3>
                         Create an application with React and React Router
                     </h3>
@@ -60,19 +60,19 @@ function Experience() {
                         <li>Create components with React</li>
                         <li>Technologies used : React, React Router</li>
                     </ul>
-                </ExperienceBox>
-            </ExperienceContainer>
+                </ProjectsBox>
+            </ProjectsContainer>
         </div>
     )
 }
 
-const ExperienceContainer = styled.div`
+const ProjectsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 `
 
-const ExperienceBox = styled.div`
+const ProjectsBox = styled.div`
   width: 44%;
   color: white;
   background-color: #282c34;
@@ -81,4 +81,4 @@ const ExperienceBox = styled.div`
   margin-bottom: 24px;
 `
 
-export default Experience;
+export default Projects;
