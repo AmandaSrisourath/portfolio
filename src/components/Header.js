@@ -12,7 +12,8 @@ function Header() {
 }
 
 const Title = styled.h1`
-  background-color: #282c34;
+  background-color: #20232a;
+//   background-color: rgb(81, 170, 196);
   color: #61dafb;
   text-align: center;
   margin: 0;
