@@ -1,5 +1,4 @@
 import React from "react";
-import { styled } from '@mui/system';
 import Box from '@mui/material/Box';
 
 function BoxContainer(props) {    
@@ -27,9 +26,5 @@ function BoxContainer(props) {
         </div>
     )
 }
-
-const Subtittle = styled('h2')`
-    margin-top: 0;
-`
 
 export default BoxContainer;

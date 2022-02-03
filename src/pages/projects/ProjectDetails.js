@@ -1,6 +1,6 @@
 import React from "react";
 
-function Projects(props) {
+function ProjectDetails(props) {
     const { id = '', title = '', skills = [''], technologies = [''] } = props;
 
     return (
@@ -12,4 +12,4 @@ function Projects(props) {
     )
 }
 
-export default Projects;
+export default ProjectDetails;
