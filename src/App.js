@@ -1,39 +1,28 @@
 import './App.css';
-import styled from "@emotion/styled";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./components/ProjectsArray";
-import AboutMe from './components/AboutMe';
-import Skills from "./components/Skills";
-import BoxContainer from './components/BoxContainer';
-import ProjectsArray from './components/ProjectsArray';
+import React from "react";
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+  } from "react-router-dom";
+import Home from './pages/home/index';
+import AboutMe from './pages/Infos/AboutMe';
+import Projects from './pages/projects/index';
+import Infos from './pages/Infos/index';
+import SkillsAndSoftwares from './pages/skills & softwares/index';
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Container>
-        <BoxContainer>
-          <AboutMe />
-        </BoxContainer>
-        <BoxContainer>
-          <ProjectsArray />
-        </BoxContainer>
-        <BoxContainer>
-          <Skills />
-        </BoxContainer>
-      </Container>
-      <Footer />
-    </div>
-  )
+  	return (
+    	<Router>
+			<Routes>
+				<Route path="/" element={<Home/>}/>
+				<Route path="/aboutMe" element={<AboutMe/>}/>
+				<Route path="/infos" element={<Infos/>}/>
+				<Route path="/projects" element={<Projects/>}/>
+				<Route path="/skills-softwares" element={<SkillsAndSoftwares/>}/>
+			</Routes>
+		</Router>
+	)
 }
-
-const Container = styled.div`
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #282c34;
-`
 
 export default App;
