@@ -1,9 +1,10 @@
 import React from "react";
 import { styled } from '@mui/system';
 import Menu from "../home/Menu";
+import BoxContainer from "../BoxContainer";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import BoxContainer from "../BoxContainer";
+import Education from "./Education";
 
 function Infos() {
     return (
@@ -18,6 +19,10 @@ function Infos() {
 
                 <BoxContainer>
                     <AboutMe/>
+                </BoxContainer>
+
+                <BoxContainer>
+                    <Education/>
                 </BoxContainer>
             </Container>
         </Background>

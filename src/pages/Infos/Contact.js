@@ -28,10 +28,10 @@ function Contact() {
             
             <SocialLink>
                 <a href={urlGitHub} target="_blank">
-                    <GitHub sx={{ fontSize: 40, color: 'white', marginRight: 1 }}/>
+                    <GitHub sx={{ fontSize: 40, color: 'black', marginRight: 1 }}/>
                 </a>
                 <a href={urlLinkedin} target="_blank">
-                    <LinkedIn sx={{ fontSize: 47, color: 'white' }}/>
+                    <LinkedIn sx={{ fontSize: 47, color: 'black' }}/>
                 </a>
             </SocialLink>
         </div>
@@ -49,7 +49,7 @@ const ContactDetails = styled('div')`
 `
 
 const ContactLink = styled('a')`
-    color: white;
+    color: black;
     text-decoration: none;
 `
 
