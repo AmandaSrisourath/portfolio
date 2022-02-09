@@ -7,7 +7,7 @@ import {
   } from "react-router-dom";
 import Home from './pages/home/index';
 import AboutMe from './pages/Infos/AboutMe';
-import Projects from './pages/projects/index';
+import Projects from './pages/projects/components/index';
 import Infos from './pages/Infos/index';
 import SkillsAndSoftwares from './pages/skills & softwares/index';
 
