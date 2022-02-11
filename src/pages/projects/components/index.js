@@ -1,15 +1,13 @@
 import React from "react";
 import { styled } from '@mui/system';
 import { data } from "../data";
-import Menu from "../../home/Menu";
 import BoxContainer from "../../BoxContainer";
 import ProjectDetails from "./ProjectDetails";
 
 function Projects() {
     return (
-        <Background>
-            <Menu/>
-            <Title>Projects</Title>
+        <div>
+            <Title id="projects">Projects</Title>
             <Container>
                 {data.map((project) => {
                     return (
@@ -19,14 +17,9 @@ function Projects() {
                     )}
                 )}
             </Container>
-        </Background>
+        </div>
     )
 }
-
-const Background = styled('div')`
-    background-color: #282c34;
-    min-height: 100vh;
-`
 
 const Title = styled('h1')`
     text-align: center;
@@ -36,6 +29,7 @@ const Title = styled('h1')`
 const Container = styled('div')`
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
