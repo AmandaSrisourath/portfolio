@@ -9,9 +9,9 @@ function BoxContainer(props) {
                 height: 300,
                 backgroundColor: 'white',
                 opacity: [0.9, 0.8, 0.7],
-                borderRadius: 2,
-                margin: 3,
-                padding: 4,
+                borderRadius: 1,
+                margin: 1,
+                padding: 3,
                 overflow: 'auto',
                 '&:hover': {
                     backgroundColor: 'white',
