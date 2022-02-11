@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { styled } from '@mui/system';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
-import { MoreVert, Close } from '@mui/icons-material';
 
 function ProjectDetails(props) {
     const [isDisplay, setIsdisplay] = useState(false);
@@ -15,45 +16,45 @@ function ProjectDetails(props) {
         <div>
             <Subtitle>
                 {title}
-                { !isDisplay ? <MoreVert onClick={switchIsDisplay} sx={{ '&:hover': {color: '#61dafb'} }}/> : <Close onClick={switchIsDisplay} sx={{ '&:hover': {color: '#61dafb'} }}/>}
+
+                <Link href={url} target="_blank">
+                    <FontAwesomeIcon icon={faLink} width="24"/>
+                </Link>
             </Subtitle>
                 
-            { !isDisplay ? 
-                (
-                    <div>
-                        <Link href={url} target="_blank">
-                            <img src={process.env.PUBLIC_URL + `/images/${img}`} width="100%" height="224"/>
-                        </Link>
-                    </div>
-                ) :
-                (
-                    <div>
-                        {skills.map((skill) =>
-                            <p key={skill}>{skill}</p>
-                        )}
-        
-                        <Tags>
-                            {technologies.map((technologie) =>
-                                <Chip 
-                                    key={technologie} 
-                                    label={technologie} 
-                                    sx={{ marginRight: 1, marginBottom: 1, color: '#61dafb', backgroundColor: '#282c34' }}
-                                />
+            <div onMouseEnter={switchIsDisplay} onMouseLeave={switchIsDisplay}>
+                { !isDisplay ? 
+                    (
+                        <img src={process.env.PUBLIC_URL + `/images/${img}`} width="100%" height="224"/>
+                    ) :
+                    (
+                        <div>
+                            {skills.map((skill) =>
+                                <p key={skill}>{skill}</p>
                             )}
-                        </Tags>
-                    </div>
-                )
-            }
+            
+                            <Tags>
+                                {technologies.map((technologie) =>
+                                    <Chip 
+                                        key={technologie} 
+                                        label={technologie} 
+                                        sx={{ marginRight: 1, marginBottom: 1, color: '#61dafb', backgroundColor: '#282c34' }}
+                                    />
+                                )}
+                            </Tags>
+                        </div>
+                    )
+                }
+            </div>
         </div>
     )
 }
 
 const Subtitle = styled('h2')`
     display: flex;
-    // align-items: center;
     margin-top: 0;
-    margin-bottom: 24px;
-    cursor: pointer;
+    margin-bottom: 16px;
+    font-size: 2.4vh;
 `
 
 const Tags = styled('div')`
@@ -64,6 +65,10 @@ const Tags = styled('div')`
 const Link = styled('a')`
     word-break: break-word;
     color: black;
+    margin-left: 16px;
+    :hover {
+        color: #61dafb;
+    }
 `
 
 export default ProjectDetails;
