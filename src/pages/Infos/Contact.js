@@ -1,11 +1,12 @@
 import React from "react";
 import { styled } from '@mui/system';
-import { Phone, Mail, Home, GitHub, LinkedIn } from '@mui/icons-material';
+import { Phone, Mail, Home, GitHub, LinkedIn, Twitter } from '@mui/icons-material';
 
 function Contact() {
     let urlLocalisation = "https://www.google.com/maps/place/Biggera+Waters+Queensland+4216/@-27.9304591,153.3237947,12z/data=!4m5!3m4!1s0x6b91102a0033457f:0x502a35af3dea050!8m2!3d-27.9322251!4d153.3994829";
     let urlGitHub = "https://github.com/AmandaSrisourath";
     let urlLinkedin= "https://www.linkedin.com/in/a-srisourath/";
+    let urlTwitter= "https://twitter.com/AmdaSrisourath";
 
     return (
         <div>
@@ -28,10 +29,13 @@ function Contact() {
             
             <SocialLink>
                 <a href={urlGitHub} target="_blank">
-                    <GitHub sx={{ fontSize: 40, color: 'black', marginRight: 1 }}/>
+                    <GitHub sx={{ fontSize: 40, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
                 <a href={urlLinkedin} target="_blank">
-                    <LinkedIn sx={{ fontSize: 47, color: 'black' }}/>
+                    <LinkedIn sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
+                </a>
+                <a href={urlTwitter} target="_blank">
+                    <Twitter sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
             </SocialLink>
         </div>
@@ -46,17 +50,26 @@ const ContactDetails = styled('div')`
     display: flex;
     align-items: center;
     margin-bottom: 16px;
+    :hover {
+        color: #61dafb;
+    }
 `
 
 const ContactLink = styled('a')`
     color: black;
     text-decoration: none;
+    :hover {
+        color: #61dafb;
+    }
 `
 
 const SocialLink = styled('div')`
     display: flex;
     margin-top: 16px;
     align-items: center;
+    :hover {
+        color: #61dafb;
+    }
 `
 
 export default Contact;
