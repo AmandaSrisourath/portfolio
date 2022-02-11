@@ -2,7 +2,7 @@ const data = [
     {
         id: '1',
         title: 'Convert a jQuery library to React',
-        skills: ['Redesign an application to reduce technical debt', 'Analyze the performance of a web app', 'Deploy a front-end application', 'Unit testing'],
+        skills: ['Redesign an application to reduce technical debt', 'Analyze the performance of a web app', 'Unit testing'],
         technologies: ['React', 'React Router', 'Redux / Toolkit', 'Emotion', 'Jest', 'Testing-Library'],
         url: 'https://www.npmjs.com/package/basic-react-dropdown',
         img: 'hrnet.png',
