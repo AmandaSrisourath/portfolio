@@ -3,14 +3,14 @@ import styled from "@emotion/styled";
 
 function Presentation() {
     return (
-        <Titles>
+        <Titles id="home">
             <Name>
                 Amanda Srisourath
             </Name>
 
-            <Name>
-                Front-end | Web designer
-            </Name>
+            <Description>
+                Front-end developer | Web designer
+            </Description>
         </Titles>
     )
 }
@@ -24,9 +24,16 @@ const Titles = styled('div')`
 `
 
 const Name = styled('h1')`
-  color: #61dafb;
-  margin: 8px;
-  font-size: 80px;
+    color: #61dafb;
+    margin: 8px;
+    font-size: 6.5vw;
+`
+
+const Description = styled('h2')`
+    color: #61dafb;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 4.5vw;
 `
 
 export default Presentation;
