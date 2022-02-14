@@ -4,7 +4,7 @@ import Menu from "./Menu";
 import Presentation from "./Presentation";
 import Infos from "../infos/index";
 import Projects from "../projects/components/index";
-import SkillsAndSoftwares from "../skills-softwares";
+import SkillsAndSoftwares from "../skills";
 
 function Home() {
     return (

@@ -24,6 +24,11 @@ function Projects() {
 const Title = styled('h1')`
     text-align: center;
     color: #61dafb;
+    cursor: default;
+    transition: transform 300ms ease-in-out;
+    :hover {
+        transform: scale(1.15);
+    }
 `
 
 const Container = styled('div')`

@@ -5,12 +5,8 @@ import { faLink } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
 
 function ProjectDetails(props) {
-    const [isDisplay, setIsdisplay] = useState(false);
+    const [displayDetails, setDisplayDetails] = useState(false);
     const { title = '', skills = [''], technologies = [''], url = '', img = ''} = props;
-
-    const switchIsDisplay = () => {
-        setIsdisplay(!isDisplay);
-    }
 
     return (
         <div>
@@ -22,8 +18,8 @@ function ProjectDetails(props) {
                 </Link>
             </Subtitle>
                 
-            <div onMouseEnter={switchIsDisplay} onMouseLeave={switchIsDisplay}>
-                { !isDisplay ? 
+            <div onMouseEnter={() => setDisplayDetails(true)} onMouseLeave={() => setDisplayDetails(false)}>
+                { !displayDetails ? 
                     (
                         <img src={process.env.PUBLIC_URL + `/images/${img}`} width="100%" height="224"/>
                     ) :

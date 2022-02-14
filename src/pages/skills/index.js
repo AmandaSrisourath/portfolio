@@ -1,17 +1,17 @@
 import React from "react";
 import { styled } from '@mui/system';
 import BoxContainer from "../BoxContainer";
-import Skills from "./Skills";
+import CodingSkills from "./CodingSkills";
 import Softwares from "./Softwares";
 
-function SkillsAndSoftwares() {
+function Skills() {
     return (
         <div>
-            <Title id="skills-softwares">Skills & Softwares</Title>
+            <Title id="skills">Skills</Title>
 
             <Container>
                 <BoxContainer>
-                    <Skills/>
+                    <CodingSkills/>
                 </BoxContainer>
 
                 <BoxContainer>
@@ -25,6 +25,12 @@ function SkillsAndSoftwares() {
 const Title = styled('h1')`
     text-align: center;
     color: #61dafb;
+    cursor: default;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+    :hover {
+        transform: scale(1.15);
+    }
 `
 
 const Container = styled('div')`
@@ -34,6 +40,7 @@ const Container = styled('div')`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 32px;
 `
 
-export default SkillsAndSoftwares;
+export default Skills;

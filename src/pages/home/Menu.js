@@ -10,7 +10,7 @@ function Menu() {
                 <LinkName href="#home"><ImageAvatar/></LinkName>
                 <LinkName href="#infos">Infos</LinkName>
                 <LinkName href="#projects">Projects</LinkName>
-                <LinkName href="#skills-softwares">Skills</LinkName>
+                <LinkName href="#skills">Skills</LinkName>
             </Nav>
         </Container>
     )
@@ -39,7 +39,10 @@ const LinkName = styled('a')`
     text-decoration: none;
     font-weight: 600;
     align-self: center;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
     :hover {
+        transform: scale(1.15);
         color: #61dafb;
     }
 `
