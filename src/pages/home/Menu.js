@@ -20,8 +20,8 @@ const Container = styled('div')`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 24px 0;
-    background-color: #20232a;
+    padding: 16px 0;
+    background-color: rgba(32, 35, 42, 0.7);
     position: fixed;
     width: 100%;
     z-index: 1;
