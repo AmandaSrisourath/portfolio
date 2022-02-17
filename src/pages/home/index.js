@@ -5,6 +5,7 @@ import Presentation from "./Presentation";
 import Infos from "../infos/index";
 import Projects from "../projects/components/index";
 import SkillsAndSoftwares from "../skills";
+import bg from "../../Assets/bg.jpeg";
 
 function Home() {
     return (
@@ -19,7 +20,7 @@ function Home() {
 }
 
 const Background = styled('div')`
-    background-color: #282c34;
+    background-image: url(${bg});
     min-height: 100vh;
 `
 
