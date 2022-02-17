@@ -8,7 +8,7 @@ function BoxContainer(props) {
                 width: 300,
                 height: 300,
                 backgroundColor: 'white',
-                opacity: [0.9, 0.8, 0.7],
+                opacity: 0.9,
                 borderRadius: 1,
                 margin: 1,
                 padding: 3,
