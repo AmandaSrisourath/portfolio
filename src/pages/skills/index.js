@@ -24,7 +24,7 @@ function Skills() {
 
 const Title = styled('h1')`
     text-align: center;
-    color: #61dafb;
+    color: white;
     cursor: default;
     transform: scale(1);
     transition: transform 300ms ease-in-out;

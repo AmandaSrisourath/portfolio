@@ -23,7 +23,7 @@ function Projects() {
 
 const Title = styled('h1')`
     text-align: center;
-    color: #61dafb;
+    color: white;
     cursor: default;
     transition: transform 300ms ease-in-out;
     :hover {
