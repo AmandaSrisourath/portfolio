@@ -12,7 +12,7 @@ const data = [
         title: 'Use an API for a bank user account with React',
         skills: ['Implement a state manager in a React application using Redux / Toolkit', 'Interact with an API', 'Authentication with an API'],
         technologies: ['React', 'React Router', 'Redux / Toolkit', 'Axios'],
-        url: 'https://github.com/AmandaSrisourath/AmandaSrisourath_13_06102021',
+        url: 'https://github.com/AmandaSrisourath/ArgentBank',
         img: 'argentBank.png',
     },
     {
@@ -20,16 +20,16 @@ const data = [
         title: 'Build an analytics dashboard with React',
         skills: ['Interact with a web service', 'Develop advanced graphical elements using recharts', 'Produce technical documentation for an application'],
         technologies: ['React', 'React Router', 'Axios', 'Recharts'],
-        url: 'https://github.com/AmandaSrisourath/AmandaSrisourath_12_24082021',
+        url: 'https://github.com/AmandaSrisourath/SportSee',
         img: 'sportSee.png',
     },
     {
         id: '4',
         title: 'Create an app with React and React Router',
         skills: ['Developing routes for a web application with React Router', 'Initialize a web application with a framework', 'Create components with React'],
-        technologies: ['React', 'React Router'],
+        technologies: ['React', 'React Router', 'Figma'],
         url: 'https://amandasrisourath.github.io/AmandaSrisourath_11_27072021/#/',
-        img: 'kaza.png',
+        img: 'kasa.png',
     },
     {
         id: '5',
@@ -60,7 +60,7 @@ const data = [
         title: 'Make a dynamic page with CSS animations',
         skills: ['Ensuring the graphic consistency of a website', 'Use a version control system for project tracking and hosting', 'Implementing advanced graphic CSS effects', 'Setting up the Front-End environment'],
         technologies: ['HTML5', 'CSS3', 'Figma'],
-        url: 'https://amandasrisourath.github.io/AmandaSrisourath_3_22122020/',
+        url: 'https://github.com/AmandaSrisourath/GameOn',
         img: 'ohMyFood.png',
     },
     {
