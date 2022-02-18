@@ -14,27 +14,27 @@ function Contact() {
             
             <ContactDetails>
                 <Phone sx={{ marginRight: 2 }}/>
-                <ContactLink href="tel:0448676387">0448 676 387</ContactLink>
+                <ContactLink href="tel:0448676387" alt="Phone number">0448 676 387</ContactLink>
             </ContactDetails>
 
             <ContactDetails>
                 <Mail sx={{ marginRight: 2 }}/>
-                <ContactLink href="mailto:amanda.srisourath@gmail.com">amanda.srisourath@gmail.com</ContactLink>
+                <ContactLink href="mailto:amanda.srisourath@gmail.com" alt="Email">amanda.srisourath@gmail.com</ContactLink>
             </ContactDetails>
 
             <ContactDetails>
                 <Home sx={{ marginRight: 2 }}/>
-                <ContactLink href={urlLocalisation} target="_blank">Biggera Waters, QLD</ContactLink>
+                <ContactLink href={urlLocalisation} alt="Localisation" target="_blank">Biggera Waters, QLD</ContactLink>
             </ContactDetails>
             
             <SocialLink>
-                <a href={urlGitHub} target="_blank">
+                <a href={urlGitHub} alt="GitHub logo" target="_blank">
                     <GitHub sx={{ fontSize: 40, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
-                <a href={urlLinkedin} target="_blank">
+                <a href={urlLinkedin} alt="LinkedIn logo" target="_blank">
                     <LinkedIn sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
-                <a href={urlTwitter} target="_blank">
+                <a href={urlTwitter} alt="Twitter logo" target="_blank">
                     <Twitter sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
             </SocialLink>

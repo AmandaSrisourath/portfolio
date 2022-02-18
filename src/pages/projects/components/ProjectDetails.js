@@ -13,7 +13,7 @@ function ProjectDetails(props) {
             <Subtitle>
                 {title}
 
-                <Link href={url} target="_blank">
+                <Link href={url} alt="Link icon" target="_blank">
                     <FontAwesomeIcon icon={faLink} width="24"/>
                 </Link>
             </Subtitle>
@@ -21,7 +21,7 @@ function ProjectDetails(props) {
             <div onMouseEnter={() => setDisplayDetails(true)} onMouseLeave={() => setDisplayDetails(false)}>
                 { !displayDetails ? 
                     (
-                        <img src={process.env.PUBLIC_URL + `/images/${img}`} width="100%" height="224"/>
+                        <img src={process.env.PUBLIC_URL + `/images/${img}`} alt="project-img" width="100%" height="224"/>
                     ) :
                     (
                         <div>

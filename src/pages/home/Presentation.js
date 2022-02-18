@@ -83,11 +83,13 @@ const Titles = styled('div')`
     min-height: 100vh;
     line-height: 0.5;
     cursor: default;
+
 `
 
 const Name = styled('h1')`
     display: flex;
-    font-size: 4.5vw;
+    justify-content: center;
+    font-size: 4.3vw;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -95,7 +97,8 @@ const Name = styled('h1')`
 
 const Description = styled('h1')`
     display: flex;
-    font-size: 2.2vw;
+    justify-content: center;
+    font-size: 2.3vw;
     width: 80%;
     margin-left: auto;
     margin-right: auto;

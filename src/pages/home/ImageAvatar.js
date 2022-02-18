@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
-import profilePicture from "../../Assets/profile-picture.png";
+import profilePicture from "../../Assets/profile-picture.jpeg";
 
 export default function ImageAvatar() {
     return (
