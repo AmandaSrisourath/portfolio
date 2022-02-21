@@ -28,7 +28,7 @@ const data = [
         title: 'Create an app with React and React Router',
         skills: ['Developing routes for a web application with React Router', 'Initialize a web application with a framework', 'Create components with React'],
         technologies: ['React', 'React Router', 'Figma'],
-        url: 'https://amandasrisourath.github.io/AmandaSrisourath_11_27072021/#/',
+        url: 'https://amandasrisourath.github.io/Kasa/#/',
         img: 'kasa.png',
     },
     {
@@ -44,7 +44,7 @@ const data = [
         title: 'Create an accessible website',
         skills: ['Manage site events with JavaScript', 'Develop a modular web application with design patterns', 'Write maintainable JavaScript code', 'Ensuring the accessibility of a website'],
         technologies: ['HTML5', 'CSS3','SASS', 'JavaScript'],
-        url: 'https://amandasrisourath.github.io/AmandaSrisourath_6_22022021/',
+        url: 'https://amandasrisourath.github.io/FishEye/',
         img: 'fishEye.png',
     },
     {
@@ -52,7 +52,7 @@ const data = [
         title: 'Create a landing page with Javascript',
         skills: ['Programming in JavaScript'],
         technologies: ['HTML5', 'CSS3', 'JavaScript'],
-        url: 'https://amandasrisourath.github.io/GameOn-website-FR/',
+        url: 'https://amandasrisourath.github.io/GameOn/',
         img: 'gameOn.png',
     },
     {
@@ -60,7 +60,7 @@ const data = [
         title: 'Make a dynamic page with CSS animations',
         skills: ['Ensuring the graphic consistency of a website', 'Use a version control system for project tracking and hosting', 'Implementing advanced graphic CSS effects', 'Setting up the Front-End environment'],
         technologies: ['HTML5', 'CSS3', 'Figma'],
-        url: 'https://github.com/AmandaSrisourath/GameOn',
+        url: 'https://amandasrisourath.github.io/OhMyFood/',
         img: 'ohMyFood.png',
     },
     {
@@ -68,7 +68,7 @@ const data = [
         title: 'Create a website with HTML5 and CSS3',
         skills: ['Implement a responsive interface', 'Integrate content according to mockups'],
         technologies: ['HTML5', 'CSS3', 'Figma'],
-        url: 'https://amandasrisourath.github.io/AmandaSrisourath_2_27112020/',
+        url: 'https://amandasrisourath.github.io/Reservia/',
         img: 'reservia.png',
     },
 ]
