@@ -13,7 +13,7 @@ import Skills from './pages/skills/index';
 function App() {
   	return (
     	<Router>
-			<Routes>
+			<Routes basename="https://amandasrisourath.github.io/porfolio">
 				<Route exact path="/" element={<Home/>}/>
 				<Route path="/infos" element={<Infos/>}/>
 				<Route path="/projects" element={<Projects/>}/>
