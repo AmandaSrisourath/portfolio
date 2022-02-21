@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/porfolio/static/css/main.32d3e505.css",
+    "main.js": "/porfolio/static/js/main.bc8c16ab.js",
+    "static/js/787.202b8111.chunk.js": "/porfolio/static/js/787.202b8111.chunk.js",
+    "static/media/profile-picture.jpeg": "/porfolio/static/media/profile-picture.e1b45c0f3504cefca867.jpeg",
+    "static/media/bg.jpeg": "/porfolio/static/media/bg.0d04b7c5dcc871b2816f.jpeg",
+    "static/media/wordpress.png": "/porfolio/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/sketch.png": "/porfolio/static/media/sketch.01e569da637affc2fd41.png",
+    "static/media/figma.png": "/porfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/css3.png": "/porfolio/static/media/css3.463e319bad8e0edf1ef7.png",
+    "static/media/sass.png": "/porfolio/static/media/sass.3fc3944031c0528c83ca.png",
+    "static/media/javascript.png": "/porfolio/static/media/javascript.3dfb665e058d08c99f28.png",
+    "static/media/redux.svg": "/porfolio/static/media/redux.7009b5de06b324cf4876ae5b352973b5.svg",
+    "index.html": "/porfolio/index.html",
+    "main.32d3e505.css.map": "/porfolio/static/css/main.32d3e505.css.map",
+    "main.bc8c16ab.js.map": "/porfolio/static/js/main.bc8c16ab.js.map",
+    "787.202b8111.chunk.js.map": "/porfolio/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d3e505.css",
+    "static/js/main.bc8c16ab.js"
+  ]
+}
