@@ -1,8 +1,8 @@
 {
-  "name": "porfolio",
+  "name": "portolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amandasrisourath.github.io/porfolio",
+  "homepage": "https://amandasrisourath.github.io/portfolio",
   "dependencies": {
     "@emotion/styled": "^11.6.0",
     "@fortawesome/fontawesome-svg-core": "^1.3.0",

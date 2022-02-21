@@ -5,19 +5,13 @@ import {
 	Routes,
 	Route,
   } from "react-router-dom";
-import Home from './pages/home/index';
-import Infos from './pages/infos/index';
-import Projects from './pages/projects/components/index';
-import Skills from './pages/skills/index';
+import Home from './pages/home';
 
 function App() {
   	return (
     	<Router>
-			<Routes basename="https://amandasrisourath.github.io/porfolio">
-				<Route exact path="/" element={<Home/>}/>
-				<Route path="/infos" element={<Infos/>}/>
-				<Route path="/projects" element={<Projects/>}/>
-				<Route path="/skills" element={<Skills/>}/>
+			<Routes>
+				<Route path="*" element={<Home/>}/>
 			</Routes>
 		</Router>
 	)
