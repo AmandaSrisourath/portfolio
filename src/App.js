@@ -8,7 +8,7 @@ import {
 import Home from './pages/home';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = "G-F4GZFE8HJ8";
+const TRACKING_ID = "304514335";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
