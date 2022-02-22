@@ -28,13 +28,13 @@ function Contact() {
             </ContactDetails>
             
             <SocialLink>
-                <a href={urlGitHub} alt="GitHub logo" target="_blank">
+                <a href={urlGitHub} alt="GitHub logo" aria-label="GitHub logo" target="_blank">
                     <GitHub sx={{ fontSize: 40, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
-                <a href={urlLinkedin} alt="LinkedIn logo" target="_blank">
+                <a href={urlLinkedin} alt="LinkedIn logo" aria-label="LinkedIn logo" target="_blank">
                     <LinkedIn sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
-                <a href={urlTwitter} alt="Twitter logo" target="_blank">
+                <a href={urlTwitter} alt="Twitter logo" aria-label="Twitter logo" target="_blank">
                     <Twitter sx={{ fontSize: 47, color: 'black', marginRight: 1, '&:hover': { color: '#61dafb'} }}/>
                 </a>
             </SocialLink>

@@ -12,22 +12,22 @@ function Softwares() {
 
             <IconsContainer>
                 <Icon>
-                    <img src={figma} alt="figma-img" width="56"/>
+                    <img src={figma} alt="figma-img" width="56" height="56"/>
                     <p>Figma</p>
                 </Icon>
                 <Icon>
-                    <img src={sketch} alt="sketch-img" width="56"/>
+                    <img src={sketch} alt="sketch-img" width="56" height="56"/>
                     <p>Sketch</p>
                 </Icon>
                 <Icon>
-                    <img src={trello} alt="trello-img" width="56"/>
+                    <img src={trello} alt="trello-img" width="56" height="56"/>
                     <p>Trello</p>
                 </Icon>
             </IconsContainer>
 
             <IconsContainer>
                 <Icon>
-                    <img src={wordpress} alt="wordpress-img" width="56"/>
+                    <img src={wordpress} alt="wordpress-img" width="56" height="56"/>
                     <p>Wordpress</p>
                 </Icon>
             </IconsContainer>

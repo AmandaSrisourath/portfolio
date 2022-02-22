@@ -13,7 +13,7 @@ function ProjectDetails(props) {
             <Subtitle>
                 {title}
 
-                <Link href={url} alt="Link icon" target="_blank">
+                <Link href={url} alt="Link icon" aria-label="Link icon" target="_blank">
                     <FontAwesomeIcon icon={faLink} width="24"/>
                 </Link>
             </Subtitle>

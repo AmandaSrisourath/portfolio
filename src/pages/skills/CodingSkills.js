@@ -14,30 +14,30 @@ function CodingSkills() {
 
             <IconsContainer>
                 <Icon>
-                    <img src={html5} alt="html5-img" width="56"/>
+                    <img src={html5} alt="html5-img" width="56" height="56"/>
                     <p>HTML5</p>
                 </Icon>
                 <Icon>
-                    <img src={css3} alt="css3-img" width="56"/>
+                    <img src={css3} alt="css3-img" width="56" height="56"/>
                     <p>CSS3</p>
                 </Icon>
                 <Icon>
-                    <img src={javascript} alt="javascript-img" width="56"/>
+                    <img src={javascript} alt="javascript-img" width="56" height="56"/>
                     <p>JavaScript</p>
                 </Icon>
             </IconsContainer>
 
             <IconsContainer>
                 <Icon>
-                    <img src={sass} alt="sass-img" width="56"/>
+                    <img src={sass} alt="sass-img" width="56" height="46"/>
                     <p>SASS</p>
                 </Icon>
                 <Icon>
-                    <img src={react} alt="react-img" width="56"/>
+                    <img src={react} alt="react-img" width="56" height="56"/>
                     <p>React</p>
                 </Icon>
                 <Icon>
-                    <img src={redux} alt="redux-img" width="56"/>
+                    <img src={redux} alt="redux-img" width="56" height="56"/>
                     <p>Redux</p>
                 </Icon>
             </IconsContainer>
