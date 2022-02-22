@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.32d3e505.css",
-    "main.js": "/portfolio/static/js/main.663e71cf.js",
+    "main.js": "/portfolio/static/js/main.a611f58e.js",
     "static/js/787.0ddf8c1a.chunk.js": "/portfolio/static/js/787.0ddf8c1a.chunk.js",
-    "static/media/profile-picture.jpeg": "/portfolio/static/media/profile-picture.e1b45c0f3504cefca867.jpeg",
     "static/media/bg.jpeg": "/portfolio/static/media/bg.0d04b7c5dcc871b2816f.jpeg",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.11ed091523e3152b651f.png",
     "static/media/sketch.png": "/portfolio/static/media/sketch.01e569da637affc2fd41.png",
@@ -14,11 +13,11 @@
     "static/media/redux.svg": "/portfolio/static/media/redux.7009b5de06b324cf4876ae5b352973b5.svg",
     "index.html": "/portfolio/index.html",
     "main.32d3e505.css.map": "/portfolio/static/css/main.32d3e505.css.map",
-    "main.663e71cf.js.map": "/portfolio/static/js/main.663e71cf.js.map",
+    "main.a611f58e.js.map": "/portfolio/static/js/main.a611f58e.js.map",
     "787.0ddf8c1a.chunk.js.map": "/portfolio/static/js/787.0ddf8c1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32d3e505.css",
-    "static/js/main.663e71cf.js"
+    "static/js/main.a611f58e.js"
   ]
 }
