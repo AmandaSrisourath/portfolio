@@ -5,6 +5,7 @@ import Presentation from "./Presentation";
 import Infos from "../infos/index";
 import Projects from "../projects/components/index";
 import SkillsAndSoftwares from "../skills";
+import Footer from "../Footer";
 import bg from "../../Assets/bg.jpeg";
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
             <Infos/>
             <Projects/>
             <SkillsAndSoftwares/>
+            <Footer/>
         </Background>
     )
 }
