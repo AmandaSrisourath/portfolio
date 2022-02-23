@@ -48,6 +48,7 @@ function ProjectDetails(props) {
 
 const Subtitle = styled('h2')`
     display: flex;
+    justify-content: space-between;
     margin-top: 0;
     margin-bottom: 16px;
     font-size: 2.4vh;
@@ -61,7 +62,7 @@ const Tags = styled('div')`
 const Link = styled('a')`
     word-break: break-word;
     color: black;
-    margin-left: 16px;
+    margin-left: 8px;
     :hover {
         color: #61dafb;
     }
