@@ -5,7 +5,7 @@ function Education() {
     return (
         <div>
             <Subtittle>Education</Subtittle>
-
+        
             <h3>OpenClassrooms - France/Remote</h3>
             <p>Bachelor's degree, Computer Science</p>
             <p>2022</p>
