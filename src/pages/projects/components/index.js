@@ -6,8 +6,8 @@ import ProjectDetails from "./ProjectDetails";
 
 function Projects() {
     return (
-        <div>
-            <Title id="projects">Projects</Title>
+        <div id="projects">
+            <Title>Projects</Title>
             <Container>
                 {data.map((project) => {
                     return (

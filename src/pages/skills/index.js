@@ -6,8 +6,8 @@ import Softwares from "./Softwares";
 
 function Skills() {
     return (
-        <div>
-            <Title id="skills">Skills</Title>
+        <div id="skills">
+            <Title>Skills</Title>
 
             <Container>
                 <BoxContainer>
@@ -40,7 +40,7 @@ const Container = styled('div')`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 32px;
+    padding-bottom: 56px;
 `
 
 export default Skills;

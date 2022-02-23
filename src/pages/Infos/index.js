@@ -7,8 +7,8 @@ import Education from "./Education";
 
 function Infos() {
     return (
-        <div>
-            <Title id="infos">Infos</Title>
+        <div id="infos">
+            <Title>Infos</Title>
 
             <Container>
                 <BoxContainer>
