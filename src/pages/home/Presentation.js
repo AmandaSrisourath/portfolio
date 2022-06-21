@@ -1,11 +1,9 @@
 import React from "react";
 import styled from "@emotion/styled";
-// import logo from '../../Assets/logo.svg';
 
 function Presentation() {
     return (
         <Titles id="home">
-            {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <Name>
                 <Letters>
                     <AnimatedLetter>A</AnimatedLetter>
@@ -52,24 +50,6 @@ function Presentation() {
                     <AnimatedLetter>e</AnimatedLetter>
                     <AnimatedLetter>r</AnimatedLetter>
                 </Letters>
-                <Letters>
-                    <AnimatedLetter>|</AnimatedLetter>
-                </Letters>
-                <Letters>
-                    <AnimatedLetter>W</AnimatedLetter>
-                    <AnimatedLetter>e</AnimatedLetter>
-                    <AnimatedLetter>b</AnimatedLetter>
-                </Letters>
-                <Letters>
-                    <AnimatedLetter>D</AnimatedLetter>
-                    <AnimatedLetter>e</AnimatedLetter>
-                    <AnimatedLetter>s</AnimatedLetter>
-                    <AnimatedLetter>i</AnimatedLetter>
-                    <AnimatedLetter>g</AnimatedLetter>
-                    <AnimatedLetter>n</AnimatedLetter>
-                    <AnimatedLetter>e</AnimatedLetter>
-                    <AnimatedLetter>r</AnimatedLetter>
-                </Letters>
             </Description>
         </Titles>
     )
@@ -98,7 +78,7 @@ const Name = styled('h1')`
 const Description = styled('h1')`
     display: flex;
     justify-content: center;
-    font-size: 2.3vw;
+    font-size: 3.3vw;
     width: 80%;
     margin-left: auto;
     margin-right: auto;

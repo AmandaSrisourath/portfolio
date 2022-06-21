@@ -12,13 +12,9 @@ function BoxContainer(props) {
                 borderRadius: 1,
                 margin: 1,
                 padding: 3,
-                overflow: 'auto',
-                transform: 'scale(1)',
-                transition: 'transform 300ms ease-in-out',
                 '&:hover': {
                     backgroundColor: 'white',
                     opacity: 1,
-                    transform: 'scale(1.05)',
                 },
             }}
         >
