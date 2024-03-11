@@ -16,7 +16,7 @@ function AboutMe() {
         <br></br>🔧 Testing and debugging.
         <br></br>📊 Optimizing website performance.
         <br></br>🌐 Cross-browser compatibility.
-        <br></br>🔄 Staying updated with trends and tech.
+        <br></br>🔄 Staying updated with technologies.
       </Paragraph>
     </div>
   );
