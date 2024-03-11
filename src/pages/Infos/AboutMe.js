@@ -28,7 +28,6 @@ const Subtittle = styled("h2")`
 
 const Paragraph = styled("p")`
   text-align: justify;
-  line-height: 1.4;
 `;
 
 export default AboutMe;
