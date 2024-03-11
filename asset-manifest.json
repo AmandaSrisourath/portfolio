@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9888b27a.css",
-    "main.js": "/portfolio/static/js/main.0eab0ae6.js",
+    "main.js": "/portfolio/static/js/main.d56ce4f4.js",
     "static/js/787.0ddf8c1a.chunk.js": "/portfolio/static/js/787.0ddf8c1a.chunk.js",
     "static/media/bg.jpeg": "/portfolio/static/media/bg.0d04b7c5dcc871b2816f.jpeg",
-    "static/media/wordpress.png": "/portfolio/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/postman.png": "/portfolio/static/media/postman.d1f280d2b1d7048ec0db.png",
     "static/media/sketch.png": "/portfolio/static/media/sketch.01e569da637affc2fd41.png",
     "static/media/figma.png": "/portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/css3.png": "/portfolio/static/media/css3.463e319bad8e0edf1ef7.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.3dfb665e058d08c99f28.png",
-    "static/media/redux.svg": "/portfolio/static/media/redux.7009b5de06b324cf4876ae5b352973b5.svg",
+    "static/media/pinia.svg": "/portfolio/static/media/pinia.c49dc339dc6344ec8877a01113fa2d95.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.75d93bc46b405942ec153b7cb56a1644.svg",
     "index.html": "/portfolio/index.html",
     "main.9888b27a.css.map": "/portfolio/static/css/main.9888b27a.css.map",
-    "main.0eab0ae6.js.map": "/portfolio/static/js/main.0eab0ae6.js.map",
+    "main.d56ce4f4.js.map": "/portfolio/static/js/main.d56ce4f4.js.map",
     "787.0ddf8c1a.chunk.js.map": "/portfolio/static/js/787.0ddf8c1a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9888b27a.css",
-    "static/js/main.0eab0ae6.js"
+    "static/js/main.d56ce4f4.js"
   ]
 }
