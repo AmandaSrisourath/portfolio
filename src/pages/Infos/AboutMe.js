@@ -13,8 +13,8 @@ function AboutMe() {
         <br></br>🚀 Specialized in Vue.js and React.js.
         <br></br>🛠️ UI/UX design principles.
         <br></br>💡 Strong problem-solving.
-        <br></br>📊 Optimizing website performance.
         <br></br>🔧 Testing and debugging.
+        <br></br>📊 Optimizing website performance.
         <br></br>🌐 Cross-browser compatibility.
         <br></br>🔄 Staying updated with trends and tech.
       </Paragraph>

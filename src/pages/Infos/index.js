@@ -12,15 +12,15 @@ function Infos() {
 
       <Container>
         <BoxContainer>
-          <Contact />
-        </BoxContainer>
-
-        <BoxContainer>
           <AboutMe />
         </BoxContainer>
 
         <BoxContainer>
           <Experience />
+        </BoxContainer>
+
+        <BoxContainer>
+          <Contact />
         </BoxContainer>
       </Container>
     </div>
@@ -37,9 +37,6 @@ const Container = styled("div")`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
 `;
 
 export default Infos;
