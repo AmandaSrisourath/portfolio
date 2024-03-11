@@ -1,29 +1,29 @@
-import React from "react";
 import styled from "@emotion/styled";
-import Menu from "./Menu";
-import Presentation from "./Presentation";
-import Infos from "../infos/index";
+import React from "react";
+import bg from "../../Assets/bg.jpeg";
+import Footer from "../Footer";
+import Infos from "../Infos/index";
 import Projects from "../projects/components/index";
 import SkillsAndSoftwares from "../skills";
-import Footer from "../Footer";
-import bg from "../../Assets/bg.jpeg";
+import Menu from "./Menu";
+import Presentation from "./Presentation";
 
 function Home() {
-    return (
-        <Background>
-            <Menu/>
-            <Presentation/>
-            <Infos/>
-            <Projects/>
-            <SkillsAndSoftwares/>
-            <Footer/>
-        </Background>
-    )
+  return (
+    <Background>
+      <Menu />
+      <Presentation />
+      <Infos />
+      <Projects />
+      <SkillsAndSoftwares />
+      <Footer />
+    </Background>
+  );
 }
 
-const Background = styled('div')`
-    background-image: url(${bg});
-    min-height: 100vh;
-`
+const Background = styled("div")`
+  background-image: url(${bg});
+  min-height: 100vh;
+`;
 
 export default Home;

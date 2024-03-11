@@ -1,25 +1,34 @@
+import { styled } from "@mui/system";
 import React from "react";
-import { styled } from '@mui/system';
 
 function AboutMe() {
-    return (
-        <div>
-            <Subtittle>About me</Subtittle>
+  return (
+    <div>
+      <Subtittle>About me</Subtittle>
 
-            <Paragraph>
-                After a career reorientation from sales management to front-end development, I am looking for a company to grow in this field. I obtained my bachelor in front-end development from France where I mastered my skills. This bachelor was a high intensity training program which is focus on learning by practicing with professionalizing projects.
-            </Paragraph>
-        </div>
-    )
+      <Paragraph>
+        I am a passionate Frontend Developer dedicated to transforming concepts
+        into stunning and responsive web applications.
+        <br></br>
+        <br></br>🚀 Specialized in Vue.js and React.js.
+        <br></br>🛠️ UI/UX design principles.
+        <br></br>💡 Strong problem-solving.
+        <br></br>📊 Optimizing website performance.
+        <br></br>🔧 Testing and debugging.
+        <br></br>🌐 Cross-browser compatibility.
+        <br></br>🔄 Staying updated with trends and tech.
+      </Paragraph>
+    </div>
+  );
 }
 
-const Subtittle = styled('h2')`
-    margin-top: 0;
-`
+const Subtittle = styled("h2")`
+  margin-top: 0;
+`;
 
-const Paragraph = styled('p')`
-    text-align: justify;
-    line-height: 1.4;
-`
+const Paragraph = styled("p")`
+  text-align: justify;
+  line-height: 1.4;
+`;
 
 export default AboutMe;
