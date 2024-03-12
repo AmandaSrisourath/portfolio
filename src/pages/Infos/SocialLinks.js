@@ -4,7 +4,7 @@ import React from "react";
 
 function SocialLinks() {
   let urlGitHub = "https://github.com/AmandaSrisourath";
-  let urlLinkedin = "https://www.linkedin.com/in/a-srisourath/";
+  let urlLinkedin = "https://www.linkedin.com/in/a-srisourath";
   let urlTwitter = "https://twitter.com/AmdaSrisourath";
 
   return (
