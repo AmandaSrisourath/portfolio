@@ -8,7 +8,7 @@ function AboutMe() {
 
       <Paragraph>
         I am a passionate Frontend Developer dedicated to transforming concepts
-        into stunning and responsive web applications.
+        into stunning and responsive web apps.
         <br></br>
         <br></br>🚀 Specialized in Vue.js and React.js.
         <br></br>🛠️ UI/UX design principles.
