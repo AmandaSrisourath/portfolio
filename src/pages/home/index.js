@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import React from "react";
 import bg from "../../Assets/bg.jpeg";
 import Footer from "../Footer";
-import Infos from "../Infos/index";
+import Infos from "../infos/index";
 import Projects from "../projects/components/index";
 import SkillsAndSoftwares from "../skills";
 import Menu from "./Menu";
