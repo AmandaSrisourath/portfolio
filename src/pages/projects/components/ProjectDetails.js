@@ -34,6 +34,7 @@ function ProjectDetails(props) {
             alt="project-img"
             width="100%"
             height="224"
+            style={{ objectFit: "cover", borderRadius: 8 }}
           />
         ) : (
           <Box>
