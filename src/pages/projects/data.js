@@ -122,7 +122,7 @@ const data = [
     ],
     technologies: ["Figma", "Trello"],
     url: "https://www.figma.com/file/a9JwLOrCBB4HPMg0dZYJn1/Learn%40Home",
-    img: "learn@Home.png",
+    img: "learn@home.png",
   },
   {
     id: "9",
