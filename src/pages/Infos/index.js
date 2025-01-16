@@ -3,7 +3,7 @@ import React from "react";
 import BoxContainer from "../BoxContainer";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import Experience from "./Experience";
+import Experiences from "./Experiences";
 
 function Infos() {
   return (
@@ -16,7 +16,7 @@ function Infos() {
         </BoxContainer>
 
         <BoxContainer>
-          <Experience />
+          <Experiences />
         </BoxContainer>
 
         <BoxContainer>

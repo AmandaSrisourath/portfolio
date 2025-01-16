@@ -7,7 +7,7 @@ function AboutMe() {
       <Subtittle>About me</Subtittle>
 
       <Paragraph>
-        I am a passionate Frontend Developer dedicated to transforming concepts
+        I am a passionate Front-End Developer dedicated to transforming concepts
         into stunning and responsive web apps.
         <br></br>
         <br></br>🚀 Specialized in Vue.js and React.js.

@@ -4,7 +4,23 @@ import React from "react";
 function Presentation() {
   return (
     <Titles id="home">
+      <Hello>
+        <Letters>
+          <AnimatedLetter>H</AnimatedLetter>
+          <AnimatedLetter>i</AnimatedLetter>
+        </Letters>
+        <Letters>
+          <AnimatedLetter>👋🏼</AnimatedLetter>
+          <AnimatedLetter>,</AnimatedLetter>
+        </Letters>
+      </Hello>
+
       <Name>
+        <Letters>
+          <AnimatedLetter>I</AnimatedLetter>
+          <AnimatedLetter>'</AnimatedLetter>
+          <AnimatedLetter>m</AnimatedLetter>
+        </Letters>
         <Letters>
           <AnimatedLetter>A</AnimatedLetter>
           <AnimatedLetter>m</AnimatedLetter>
@@ -24,10 +40,14 @@ function Presentation() {
           <AnimatedLetter>a</AnimatedLetter>
           <AnimatedLetter>t</AnimatedLetter>
           <AnimatedLetter>h</AnimatedLetter>
+          <AnimatedLetter>,</AnimatedLetter>
         </Letters>
       </Name>
 
       <Description>
+        <Letters>
+          <AnimatedLetter>a</AnimatedLetter>
+        </Letters>
         <Letters>
           <AnimatedLetter>F</AnimatedLetter>
           <AnimatedLetter>r</AnimatedLetter>
@@ -58,17 +78,24 @@ function Presentation() {
 const Titles = styled("div")`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
   line-height: 0.5;
   cursor: default;
 `;
+const Hello = styled("h1")`
+  display: flex;
+  justify-content: center;
+  font-size: 3.5vw;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+`;
 
 const Name = styled("h1")`
   display: flex;
   justify-content: center;
-  font-size: 4.3vw;
+  font-size: 3.5vw;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -77,7 +104,7 @@ const Name = styled("h1")`
 const Description = styled("h1")`
   display: flex;
   justify-content: center;
-  font-size: 3.3vw;
+  font-size: 3.5vw;
   width: 80%;
   margin-left: auto;
   margin-right: auto;

@@ -1,10 +1,10 @@
 import { styled } from "@mui/system";
 import React from "react";
 
-function Experience() {
+function Experiences() {
   return (
     <div>
-      <Subtittle>Experience</Subtittle>
+      <Subtittle>Experiences</Subtittle>
 
       <Container>
         <Name>💼 Front-End Developer - Full-time</Name>
@@ -42,4 +42,4 @@ const Paragraph = styled("p")`
   line-height: 1.5;
 `;
 
-export default Experience;
+export default Experiences;
