@@ -18,7 +18,7 @@ const data = [
       "Figma",
     ],
     url: "https://github.com/AmandaSrisourath/PokerSeries",
-    img: "pokerSeries.png",
+    img: "pokerSeries.webp",
   },
   {
     id: "2",
@@ -32,7 +32,7 @@ const data = [
     ],
     technologies: ["Vue.js", "Quasar", "Pinia", "JavaScript", "Esri"],
     url: "https://coverage.powertec.com.au/login",
-    img: "ncm.png",
+    img: "ncm.webp",
   },
   {
     id: "3",
@@ -54,7 +54,7 @@ const data = [
       "Figma",
     ],
     url: "https://github.com/AmandaSrisourath/DoDabble",
-    img: "doDabble.png",
+    img: "doDabble.webp",
   },
   {
     id: "4",
@@ -72,7 +72,7 @@ const data = [
       "Testing-Library",
     ],
     url: "https://www.npmjs.com/package/basic-react-dropdown",
-    img: "hrnet.png",
+    img: "hrnet.webp",
   },
   {
     id: "5",
@@ -84,7 +84,7 @@ const data = [
     ],
     technologies: ["React.js", "React Router", "Redux / Toolkit", "Axios"],
     url: "https://github.com/AmandaSrisourath/ArgentBank",
-    img: "argentBank.png",
+    img: "argentBank.webp",
   },
   {
     id: "6",
@@ -96,7 +96,7 @@ const data = [
     ],
     technologies: ["React.js", "React Router", "Axios", "Recharts"],
     url: "https://github.com/AmandaSrisourath/SportSee",
-    img: "sportSee.png",
+    img: "sportSee.webp",
   },
   {
     id: "7",
@@ -109,7 +109,7 @@ const data = [
     ],
     technologies: ["React.js", "React Router", "Figma"],
     url: "https://amandasrisourath.github.io/Kasa/#/",
-    img: "kasa.png",
+    img: "kasa.webp",
   },
   {
     id: "8",
@@ -122,7 +122,7 @@ const data = [
     ],
     technologies: ["Figma", "Trello"],
     url: "https://www.figma.com/file/a9JwLOrCBB4HPMg0dZYJn1/Learn%40Home",
-    img: "learn@home.png",
+    img: "learn@home.webp",
   },
   {
     id: "9",
@@ -135,7 +135,7 @@ const data = [
     ],
     technologies: ["HTML5", "CSS3", "SASS", "JS"],
     url: "https://amandasrisourath.github.io/FishEye/",
-    img: "fishEye.png",
+    img: "fishEye.webp",
   },
   {
     id: "10",
@@ -149,7 +149,7 @@ const data = [
     ],
     technologies: ["HTML5", "CSS3", "JS"],
     url: "https://amandasrisourath.github.io/GameOn/",
-    img: "gameOn.png",
+    img: "gameOn.webp",
   },
   {
     id: "11",
@@ -162,7 +162,7 @@ const data = [
     ],
     technologies: ["HTML5", "CSS3", "Figma"],
     url: "https://amandasrisourath.github.io/OhMyFood/",
-    img: "ohMyFood.png",
+    img: "ohMyFood.webp",
   },
   {
     id: "12",
@@ -175,7 +175,7 @@ const data = [
     ],
     technologies: ["HTML5", "CSS3", "Figma"],
     url: "https://amandasrisourath.github.io/Reservia/",
-    img: "reservia.png",
+    img: "reservia.webp",
   },
 ];
 
