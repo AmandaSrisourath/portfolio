@@ -5,6 +5,7 @@ import SocialLinks from "../../src/pages/infos/SocialLinks";
 function Footer() {
   return (
     <Container>
+      <FullName>Amanda Srisourath</FullName>
       <SocialLinks />
     </Container>
   );
@@ -14,9 +15,14 @@ const Container = styled("div")`
   background-color: white;
   opacity: 0.9;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 32px;
   margin-top: 32px;
+`;
+
+const FullName = styled("h2")`
+  margin-top: 0;
 `;
 
 export default Footer;
