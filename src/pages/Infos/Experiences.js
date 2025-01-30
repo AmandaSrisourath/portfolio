@@ -7,7 +7,9 @@ function Experiences() {
       <Subtittle>Experiences</Subtittle>
 
       <Container>
-        <Name>💼 Front-End Developer - Full-time</Name>
+        <Name>
+          💼 Front-End Developer - <br /> Full time
+        </Name>
         <Paragraph> Powertec Wireless Technology </Paragraph>
         <Paragraph>April 2022 - Now</Paragraph>
       </Container>
