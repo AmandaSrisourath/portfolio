@@ -1,3 +1,4 @@
+import ConfettiGenerator from "confetti-js";
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
 import React from "react";
@@ -5,6 +6,10 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+
+let confettiSettings = { target: "confetti-canvas" };
+let confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
 
 const firebaseConfig = {
   apiKey: "AIzaSyA65Y3WkjbRTgFmcWw9L0sztPjstmkGAlU",
