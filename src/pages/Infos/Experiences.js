@@ -1,5 +1,4 @@
 import { styled } from "@mui/system";
-import React from "react";
 
 function Experiences() {
   return (
@@ -8,7 +7,7 @@ function Experiences() {
 
       <Container>
         <Name>
-          💼 Front-End Developer - <br /> Full time
+          💼 Software Engineer - <br /> Full time
         </Name>
         <Paragraph> Powertec Wireless Technology </Paragraph>
         <Paragraph>April 2022 - Now</Paragraph>

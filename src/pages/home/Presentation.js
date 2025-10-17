@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import React from "react";
 
 function Presentation() {
   return (
@@ -29,19 +28,6 @@ function Presentation() {
           <AnimatedLetter>d</AnimatedLetter>
           <AnimatedLetter>a</AnimatedLetter>
         </Letters>
-        <Letters>
-          <AnimatedLetter>S</AnimatedLetter>
-          <AnimatedLetter>r</AnimatedLetter>
-          <AnimatedLetter>i</AnimatedLetter>
-          <AnimatedLetter>s</AnimatedLetter>
-          <AnimatedLetter>o</AnimatedLetter>
-          <AnimatedLetter>u</AnimatedLetter>
-          <AnimatedLetter>r</AnimatedLetter>
-          <AnimatedLetter>a</AnimatedLetter>
-          <AnimatedLetter>t</AnimatedLetter>
-          <AnimatedLetter>h</AnimatedLetter>
-          <AnimatedLetter>,</AnimatedLetter>
-        </Letters>
       </Name>
 
       <Description>
@@ -49,24 +35,22 @@ function Presentation() {
           <AnimatedLetter>a</AnimatedLetter>
         </Letters>
         <Letters>
-          <AnimatedLetter>F</AnimatedLetter>
-          <AnimatedLetter>r</AnimatedLetter>
+          <AnimatedLetter>S</AnimatedLetter>
           <AnimatedLetter>o</AnimatedLetter>
-          <AnimatedLetter>n</AnimatedLetter>
+          <AnimatedLetter>f</AnimatedLetter>
           <AnimatedLetter>t</AnimatedLetter>
-          <AnimatedLetter>-</AnimatedLetter>
-          <AnimatedLetter>E</AnimatedLetter>
-          <AnimatedLetter>n</AnimatedLetter>
-          <AnimatedLetter>d</AnimatedLetter>
+          <AnimatedLetter>w</AnimatedLetter>
+          <AnimatedLetter>a</AnimatedLetter>
+          <AnimatedLetter>r</AnimatedLetter>
+          <AnimatedLetter>e</AnimatedLetter>
         </Letters>
         <Letters>
-          <AnimatedLetter>D</AnimatedLetter>
+          <AnimatedLetter>E</AnimatedLetter>
+          <AnimatedLetter>n</AnimatedLetter>
+          <AnimatedLetter>g</AnimatedLetter>
+          <AnimatedLetter>i</AnimatedLetter>
+          <AnimatedLetter>n</AnimatedLetter>
           <AnimatedLetter>e</AnimatedLetter>
-          <AnimatedLetter>v</AnimatedLetter>
-          <AnimatedLetter>e</AnimatedLetter>
-          <AnimatedLetter>l</AnimatedLetter>
-          <AnimatedLetter>o</AnimatedLetter>
-          <AnimatedLetter>p</AnimatedLetter>
           <AnimatedLetter>e</AnimatedLetter>
           <AnimatedLetter>r</AnimatedLetter>
         </Letters>

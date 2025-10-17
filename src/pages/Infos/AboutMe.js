@@ -1,5 +1,4 @@
 import { styled } from "@mui/system";
-import React from "react";
 
 function AboutMe() {
   return (
@@ -7,7 +6,7 @@ function AboutMe() {
       <Subtittle>About me</Subtittle>
 
       <Paragraph>
-        I am a passionate Front-End Developer dedicated to transforming concepts
+        I am a passionate Software Engineer dedicated to transforming concepts
         into stunning and responsive web apps.
         <br></br>
         <br></br>🚀 Specialized in Vue.js and React.js.
