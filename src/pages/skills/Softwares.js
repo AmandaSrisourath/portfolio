@@ -1,9 +1,10 @@
 import { styled } from "@mui/system";
-import React from "react";
-import figma from "../../Assets/figma.png";
-import postman from "../../Assets/postman.png";
-import sketch from "../../Assets/sketch.png";
-import trello from "../../Assets/trello.png";
+import bitbucket from "../../Assets/softwares/bitbucket.png";
+import figma from "../../Assets/softwares/figma.png";
+import jira from "../../Assets/softwares/jira.png";
+import postman from "../../Assets/softwares/postman.png";
+import sketch from "../../Assets/softwares/sketch.png";
+import vscode from "../../Assets/softwares/vscode.png";
 
 function Softwares() {
   return (
@@ -19,16 +20,24 @@ function Softwares() {
           <img src={sketch} alt="sketch-img" width="56" height="56" />
           <p>Sketch</p>
         </Icon>
-      </IconsContainer>
-
-      <IconsContainer>
         <Icon>
           <img src={postman} alt="postman-img" width="56" height="56" />
           <p>Postman</p>
         </Icon>
+      </IconsContainer>
+
+      <IconsContainer>
         <Icon>
-          <img src={trello} alt="trello-img" width="56" height="56" />
-          <p>Trello</p>
+          <img src={vscode} alt="vscode-img" width="56" height="56" />
+          <p>VS Code</p>
+        </Icon>
+        <Icon>
+          <img src={jira} alt="jira-img" width="56" height="56" />
+          <p>Jira</p>
+        </Icon>
+        <Icon>
+          <img src={bitbucket} alt="bitbucket-img" width="56" height="56" />
+          <p>Bitbucket</p>
         </Icon>
       </IconsContainer>
     </div>

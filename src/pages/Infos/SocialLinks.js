@@ -1,11 +1,9 @@
-import { GitHub, LinkedIn, Twitter } from "@mui/icons-material";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 import { styled } from "@mui/system";
-import React from "react";
 
 function SocialLinks() {
   let urlGitHub = "https://github.com/AmandaSrisourath";
   let urlLinkedin = "https://www.linkedin.com/in/a-srisourath";
-  let urlTwitter = "https://twitter.com/AmdaSrisourath";
 
   return (
     <div>
@@ -40,31 +38,15 @@ function SocialLinks() {
             }}
           />
         </a>
-        <a
-          href={urlTwitter}
-          alt="Twitter logo"
-          aria-label="Twitter logo"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Twitter
-            sx={{
-              fontSize: 37,
-              color: "black",
-              "&:hover": { color: "#61dafb" },
-            }}
-          />
-        </a>
       </Links>
     </div>
   );
 }
 
 const Links = styled("div")`
-  width: 150px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 8px;
 `;
 
 export default SocialLinks;

@@ -49,10 +49,9 @@ const data = [
   },
   {
     id: "4",
-    title: "Convert a jQuery library to React",
+    title: "Create a React dropdown library",
     skills: [
-      "Redesign an application to reduce technical debt",
-      "Analyze performance of a web app",
+      "Built and published a reusable dropdown component library using React",
       "Unit testing",
     ],
     technologies: [
@@ -130,20 +129,6 @@ const data = [
   },
   {
     id: "10",
-    title: "Create a landing page with Javascript",
-    skills: [
-      "Programming in JavaScript",
-      "Create interactive elements",
-      "Enhance UI with DOM manipulation",
-      "Handle asynchronous operations with Fetch API",
-      "Debug and optimize JavaScript code for performance",
-    ],
-    technologies: ["HTML5", "CSS3", "JS"],
-    url: "https://amandasrisourath.github.io/GameOn/",
-    img: "gameOn.webp",
-  },
-  {
-    id: "11",
     title: "Make a dynamic page with CSS animations",
     skills: [
       "Ensuring the graphic consistency of a website",
@@ -156,7 +141,7 @@ const data = [
     img: "ohMyFood.webp",
   },
   {
-    id: "12",
+    id: "11",
     title: "Create a website with HTML5 and CSS3",
     skills: [
       "Implement a responsive interface",

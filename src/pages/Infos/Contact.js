@@ -1,6 +1,5 @@
 import { LocationOn, Mail, Phone } from "@mui/icons-material";
 import { styled } from "@mui/system";
-import React from "react";
 import SocialLinks from "./SocialLinks";
 
 function Contact() {
@@ -33,7 +32,7 @@ function Contact() {
             alt="Localisation"
             target="_blank"
           >
-            Biggera Waters, QLD
+            Gold Coast, QLD, Australia
           </ContactLink>
         </ContactDetails>
       </div>

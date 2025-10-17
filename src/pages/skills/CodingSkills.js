@@ -1,13 +1,12 @@
 import { styled } from "@mui/system";
-import React from "react";
-import css3 from "../../Assets/css3.png";
-import html5 from "../../Assets/html5.png";
-import javascript from "../../Assets/javascript.png";
-import pinia from "../../Assets/pinia.svg";
-import react from "../../Assets/react.png";
-import redux from "../../Assets/redux.svg";
-import sass from "../../Assets/sass.png";
-import vue from "../../Assets/vue.png";
+import css3 from "../../Assets/codingSkills/css3.png";
+import html5 from "../../Assets/codingSkills/html5.png";
+import javascript from "../../Assets/codingSkills/javascript.png";
+import pinia from "../../Assets/codingSkills/pinia.svg";
+import react from "../../Assets/codingSkills/react.png";
+import redux from "../../Assets/codingSkills/redux.svg";
+import sass from "../../Assets/codingSkills/sass.png";
+import vue from "../../Assets/codingSkills/vue.png";
 
 function CodingSkills() {
   return (
