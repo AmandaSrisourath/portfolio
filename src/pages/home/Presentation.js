@@ -7,9 +7,6 @@ function Presentation() {
         <Letters>
           <AnimatedLetter>H</AnimatedLetter>
           <AnimatedLetter>i</AnimatedLetter>
-        </Letters>
-        <Letters>
-          <AnimatedLetter>👋🏼</AnimatedLetter>
           <AnimatedLetter>,</AnimatedLetter>
         </Letters>
       </Hello>
