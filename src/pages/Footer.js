@@ -1,6 +1,5 @@
 import { styled } from "@mui/system";
-import React from "react";
-import SocialLinks from "../../src/pages/infos/SocialLinks";
+import SocialLinks from "./Infos/SocialLinks";
 
 function Footer() {
   return (
