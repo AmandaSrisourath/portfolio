@@ -14,7 +14,7 @@ function AboutMe() {
         <br></br>🔧 Unit tests with Vitest.
         <br></br>🛠️ UI/UX design principles.
         <br></br>📊 Optimizing website performance.
-        <br></br>🎨 Create Figma desgin.
+        <br></br>🎨 Create Figma design.
       </Paragraph>
     </div>
   );
