@@ -9,12 +9,12 @@ function AboutMe() {
         I am a passionate Software Engineer dedicated to transforming concepts
         into stunning and responsive web apps.
         <br></br>
-        <br></br>🚀 Specialized in Vue.js and React.js.
+        <br></br>🚀 Specialized in React.js and Vue.js.
+        <br></br>🔄 API development with Node.js.
+        <br></br>🔧 Unit tests with Vitest.
         <br></br>🛠️ UI/UX design principles.
-        <br></br>💡 Strong problem-solving.
-        <br></br>🔧 Testing and debugging.
         <br></br>📊 Optimizing website performance.
-        <br></br>🌐 Cross-browser compatibility.
+        <br></br>🎨 Create Figma desgin.
       </Paragraph>
     </div>
   );

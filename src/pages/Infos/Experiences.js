@@ -2,25 +2,34 @@ import { styled } from "@mui/system";
 
 function Experiences() {
   return (
-    <div>
+    <>
       <Subtittle>Experiences</Subtittle>
 
       <Container>
         <Name>
-          💼 Software Engineer - <br /> Full time
+          Software Engineer (Contractor) <br />
         </Name>
-        <Paragraph> Powertec Wireless Technology </Paragraph>
-        <Paragraph>April 2022 - Now</Paragraph>
+        <Paragraph>October 2025 - Now</Paragraph>
       </Container>
 
       <br></br>
 
       <Container>
-        <Name>🎓 Bachelor's degree, Computer Science - Remote</Name>
+        <Name>
+          Software Engineer (Full-time) <br />
+        </Name>
+        <Paragraph> Powertec Wireless Technology </Paragraph>
+        <Paragraph>April 2022 - September 2025</Paragraph>
+      </Container>
+
+      <br></br>
+
+      <Container>
+        <Name>Bachelor of Computer Science</Name>
         <Paragraph> OpenClassrooms</Paragraph>
         <Paragraph>2022</Paragraph>
       </Container>
-    </div>
+    </>
   );
 }
 
@@ -34,13 +43,12 @@ const Container = styled("div")`
   padding: 8px 16px;
 `;
 
-const Name = styled("h3")`
+const Name = styled("h4")`
   margin: 0;
 `;
 
 const Paragraph = styled("p")`
   margin: 0;
-  line-height: 1.5;
 `;
 
 export default Experiences;
